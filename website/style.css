@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .rst{
+    background: #000;
+    color: white;
+}
+.rst a{
+    text-decoration: none;
+    color: white;
+} */
+
+.top-nav{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background: rgb(3, 1, 31);
+    width: 100%;
+    height: 60px;
+}
+.top-nav .logo a{
+    text-decoration: none;
+    color: white;
+}
+.top-nav .logo{
+    margin-left: 20px;
+
+}
+.top-nav ul {
+    list-style: none;
+    position: absolute;
+    right: 30px;
+    display: flex;
+}
+.top-nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+.top-nav ul a:hover{
+    color: rgb(232, 143, 143);
+}
+.top-nav .copalse-nav{
+    position: absolute;
+    right: 10px;
+    border: 1px solid #000;
+    background: white;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    top: 0;
+}
+.top-nav .copalse-nav button span{
+    width: 100%;
+    margin: 2px;
+    background: #000;
+    display: none;
+}
+/* .top-nav .copalse-nav  */
+
+/* top-nav-media */
+
+@media screen and (max-width:700px) {
+    .top-nav ul {
+        display: none;
+    }
+    
+}
+/* home-page */
+.home-page
+{
+    height: 70vh;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.home-page .font-home-page{
+line-height: 1.7;
+}
+
+
+.home-page .font-home-page h1{
+    padding: 10px;
+    /* color: red; */
+}
+
+.home-page .font-home-page button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    width: 150px;
+    background: rgb(2, 9, 42);
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* home-page-details */
+
+.home-page-details{
+    display: flex;
+    flex-direction: wrap;
+    /* width: 100%;
+    height: 100%; */
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: rgb(3, 1, 31);
+}
+.home-page-details .home-page-box{
+    width: 450px;
+    box-shadow: 2px 3px 4px rgb(0, 0, 0,0.6);
+    padding: 10px;
+    background: white;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
